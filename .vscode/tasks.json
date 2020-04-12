@@ -8,7 +8,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
                 "-fexec-charset=gbk",
                 "-finput-charset=UTF-8"
             ],
